@@ -1,0 +1,115 @@
+# =============================================================================
+# Yacht AI Video Production System — .gitignore
+# =============================================================================
+# Policy: Track documentation, manifests, prompts, templates, and scripts.
+# Exclude large binary media assets, raw generations, NLE caches, and temp files.
+# =============================================================================
+
+# --- Image Media Formats ---
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.webp
+*.bmp
+*.exr
+*.dpx
+*.psd
+*.psb
+*.raw
+*.cr2
+*.nef
+*.arw
+*.dng
+
+# --- Video & Audio Media Formats ---
+*.mp4
+*.mov
+*.mxf
+*.avi
+*.mkv
+*.webm
+*.m4v
+*.wav
+*.mp3
+*.aac
+*.flac
+*.m4a
+
+# --- Production Media Directories (Keep structure & metadata, ignore binaries) ---
+productions/*/references/*
+!productions/*/references/.gitkeep
+!productions/*/references/*.md
+!productions/*/references/*.json
+!productions/*/references/images/
+productions/*/references/images/*
+!productions/*/references/images/.gitkeep
+!productions/*/references/videos/
+productions/*/references/videos/*
+!productions/*/references/videos/.gitkeep
+
+productions/*/assets/*
+!productions/*/assets/.gitkeep
+!productions/*/assets/*.md
+!productions/*/assets/*.json
+
+productions/*/generations/*
+!productions/*/generations/.gitkeep
+!productions/*/generations/*.md
+!productions/*/generations/*.json
+
+productions/*/editing/*
+!productions/*/editing/.gitkeep
+!productions/*/editing/*.md
+!productions/*/editing/*.json
+!productions/*/editing/*.edl
+!productions/*/editing/*.xml
+!productions/*/editing/*.fcpxml
+
+productions/*/deliverables/*
+!productions/*/deliverables/.gitkeep
+!productions/*/deliverables/*.md
+!productions/*/deliverables/*.json
+
+# --- Temporary & Scratch Outputs ---
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+scratch/
+tmp/
+temp/
+cache/
+renders/
+proxies/
+
+# --- Video Editing & NLE Caches ---
+*.prproj.lock
+*.drp.bak
+Adobe Premiere Pro Auto-Save/
+Adobe Premiere Pro Preview Files/
+CacheClip/
+.gallery/
+Peak Files/
+Media Cache/
+Media Cache Files/
+
+# --- Python Bytecode & Test Caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- OS & Editor Metadata ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.vscode/
+.idea/
+
+# --- Always Allow Placeholder Keep Files ---
+!.gitkeep

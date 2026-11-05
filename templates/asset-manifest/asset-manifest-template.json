@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "template_id": "TPL-ASSET-MANIFEST",
+  "template_version": "1.1.0",
+  "purpose": "Track immutable source references, prepared keyframe assets, generation metadata, video candidates, approval statuses, and final deliverable lineage for a single yacht video production.",
+  "production_id": "",
+  "lifecycle_state": "DRAFT",
+  "last_updated_utc": "",
+  "storage_policy": {
+    "mode": "colocated_workspace",
+    "intake_model": "MANAGED",
+    "media_root": ".",
+    "git_tracks_binaries": false,
+    "managed_subdirectories": {
+      "image": "references/images",
+      "video": "references/videos"
+    }
+  },
+  "source_references": [
+    {
+      "production_id": "",
+      "reference_id": "REF-001",
+      "asset_id": "REF-001",
+      "media_type": "image",
+      "asset_type": "image",
+      "original_filename": "",
+      "original_source_path": "",
+      "relative_path": "references/images/REF-001.jpg",
+      "managed_relative_path": "productions/<PRODUCTION-ID>/references/images/REF-001.jpg",
+      "sha256": "",
+      "file_size": 0,
+      "mime_type": "image/jpeg",
+      "file_extension": ".jpg",
+      "format": "",
+      "resolution": "",
+      "ingested_at_utc": "",
+      "intake_timestamp": "",
+      "immutable_locked": true,
+      "technical_metadata": {
+        "width": null,
+        "height": null,
+        "format": null,
+        "colour_mode": null,
+        "colour_profile": null,
+        "orientation": null,
+        "aspect_ratio": null,
+        "file_size": 0,
+        "extractor": "",
+        "extraction_status": "NOT_TESTED",
+        "warnings": []
+      },
+      "validation_status": "NOT_TESTED",
+      "validation_summary": {
+        "checks": {},
+        "warnings": [],
+        "errors": []
+      },
+      "approval_status": "PENDING_REVIEW",
+      "provenance": {
+        "intake_model": "MANAGED",
+        "original_source_path": "",
+        "source_sha256": "",
+        "managed_sha256": "",
+        "checksum_verified": false,
+        "ingested_at_utc": "",
+        "immutable_after_registration": true
+      },
+      "vessel_zone": "exterior | deck | interior | unspecified",
+      "notes": ""
+    }
+  ],
+  "prepared_assets": [
+    {
+      "asset_id": "IMG-S01-v01",
+      "shot_id": "S01",
+      "parent_reference_id": "REF-001",
+      "relative_path": "assets/",
+      "operation": "deterministic_crop | fidelity_upscale | margin_outpaint",
+      "prompt_record_id": null,
+      "format": "PNG",
+      "resolution": "1920x1080",
+      "aspect_ratio": "16:9",
+      "colour_space": "sRGB",
+      "sha256": "",
+      "created_at_utc": "",
+      "approval_status": "PENDING_REVIEW",
+      "approved_by": null,
+      "approval_notes": ""
+    }
+  ],
+  "video_candidates": [
+    {
+      "candidate_id": "CAND-S01-001",
+      "shot_id": "S01",
+      "parent_asset_id": "IMG-S01-v01",
+      "parent_reference_id": "REF-001",
+      "prompt_record_id": "PRM-S01-v01",
+      "relative_path": "generations/",
+      "generation_metadata": {
+        "provider": "",
+        "model_name": "",
+        "model_version": "",
+        "seed": null,
+        "motion_scale": null,
+        "camera_control": "",
+        "native_resolution": "",
+        "native_fps": null,
+        "duration_seconds": null,
+        "generated_at_utc": ""
+      },
+      "sha256": "",
+      "approval_status": "PENDING_REVIEW",
+      "reviewed_by": null,
+      "rejection_reason": null,
+      "notes": ""
+    }
+  ],
+  "deliverables": [
+    {
+      "deliverable_id": "DELIV-v01",
+      "relative_path": "deliverables/",
+      "edit_record_id": "EDIT-v01",
+      "qa_report_id": "QA-v01",
+      "source_lineage": {
+        "candidate_ids": [],
+        "prepared_asset_ids": [],
+        "prompt_record_ids": [],
+        "reference_ids": []
+      },
+      "technical_specs": {
+        "container": "MP4",
+        "video_codec": "H.264",
+        "resolution": "1920x1080",
+        "aspect_ratio": "16:9",
+        "frame_rate": 24,
+        "duration_seconds": 10.0,
+        "audio_streams": 0
+      },
+      "sha256": "",
+      "created_at_utc": "",
+      "approval_status": "PENDING_REVIEW",
+      "approved_by": null
+    }
+  ]
+}

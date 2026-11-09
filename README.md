@@ -8,6 +8,16 @@
 
 ---
 
+## 🎬 Watch the Final Cinematic Pilot — AURELIA 42
+
+[![Watch AURELIA 42 — Final Cinematic Pilot on YouTube](https://img.youtube.com/vi/zyP8m1vEW-M/hqdefault.jpg)](https://youtu.be/zyP8m1vEW-M)
+
+▶ **[Watch the Final Pilot on YouTube](https://youtu.be/zyP8m1vEW-M)**
+
+[Download the original 1080p CapCut export (MP4, 71.6 MB)](productions/YVP-ORIGINAL-001/deliverables/YVP-ORIGINAL-001-final-capcut.mp4)
+
+---
+
 ## 1. Cinematic Video Showcase — The Opening Experience
 
 The **Yacht Video Production (YVP)** framework is an end-to-end creative and technical discipline engineered to produce broadcast-grade, identity-faithful cinematic films of luxury motor yachts using controlled generative artificial intelligence.
@@ -15,17 +25,6 @@ The **Yacht Video Production (YVP)** framework is an end-to-end creative and tec
 At the center of the production is a precisely timed, ten-second screening presentation: **AURELIA 42 — The Mediterranean Screening**.
 
 ---
-
-## Watch the Final Pilot Video
-
-Experience the complete, assembled screening presentation of **AURELIA 42** conformed at 24 fps CFR:
-
-[![Watch AURELIA 42 Master Pilot](productions/YVP-ORIGINAL-001/assets/approved/keyframes/KF-01A_master.png)](productions/YVP-ORIGINAL-001/deliverables/YVP-ORIGINAL-001-final-capcut.mp4)
-
-▶ **[Watch the Final Pilot Video (MP4)](productions/YVP-ORIGINAL-001/deliverables/YVP-ORIGINAL-001-final-capcut.mp4)**  
-*Delivery file: `productions/YVP-ORIGINAL-001/deliverables/YVP-ORIGINAL-001-final-capcut.mp4` (71.6 MB, 1080p, 24 fps CFR)*
-
-
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
